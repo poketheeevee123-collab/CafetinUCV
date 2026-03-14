@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Login</title>
+    <link rel="stylesheet"  href="estilos/estilosLogin.css">
+    <script src = "./global.js"></script>
+    <script src = "./login.js"></script>
+
+</head>
+
+<body>
+
+
+    <h1>
+        Bienvenido al Cafetin UCV
+        <img src="https://i.pinimg.com/474x/7a/e5/c1/7ae5c13d03ad010982d71909a539dbb2.jpg" alt="Cafetín UCV" class="logo">
+    </h1>
+
+    <h2>Inicia sesión para acceder a tu cuenta</h2>
+    <div class="ContenedorInicio">
+        <form action="IniciarSesion" method="post">
+            <div class="DatosEntradaq">
+                <label for="username">Usuario</label>
+                <input type="text" id="username" name="username" placeholder="Nombre de usuario" required>
+            </div>
+
+            <div class="DatosEntrada">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="••••••••" required>
+            </div>
+
+            <div class="Recuerdame">
+                <input type="checkbox" id="remember">
+                <label for="remember" style="font-size: 14px;">Recordar Datos</label>
+            </div>
+
+            <button type="submit" id="botonlog" class="login">Ingresar☕</button>
+            
+            <div class="RecuperarContraseña">
+                <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+
+</html>

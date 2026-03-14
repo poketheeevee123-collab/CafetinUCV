@@ -1,0 +1,83 @@
+.PedidosContenedor {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 30px;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.PedidosContenedor h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.TablaPedidos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.TablaPedidos th {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.TablaPedidos td {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.TablaPedidos tr:hover {
+    background-color: rgba(255, 255, 255, 0.05); 
+}
+
+.PagoValido { 
+    background-color: #2ecc71;
+     color: white;
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-size: 0.8rem;     
+}
+.xValidar { 
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+
+}
+
+.Validar {
+    padding: 10px 15px;
+    background-color: #D4A373;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    filter : drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+.Validar:hover {
+    background-color: #d4a378b6;
+    transform: scale(1.1);
+}
+
+.Visualizar {
+    padding: 10px 15px;
+    background-color: #D4A373;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    filter : drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+.Visualizar:hover {
+    background-color: #d4a378b6;
+    transform: scale(1.1);
+}

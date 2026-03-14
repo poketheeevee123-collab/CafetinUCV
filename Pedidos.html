@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Pedidos</title>
+    <link rel="stylesheet"  href="estilos/estilosPagina.css">
+    <link rel="stylesheet"  href="estilos/estilosPedido.css">
+    <script src = "./global.js"></script>
+    <script src="pedidosCaja.js"></script>
+
+</head>
+
+<body>
+
+    <div class="user-container">
+        <button id="logout" class="logout">
+            <img src="estilos/imagenes/IconoLogout.png" alt="Salir">Cerrar Sesión
+        </button>
+    </div>
+
+    <div class="user-container1" id="menu-navegacion"></div>
+
+    <div class="PedidosContenedor">
+        <h2>Pedidos y Pagos</h2>
+        <table class="TablaPedidos">
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Pedido</th>
+                    <th>Precio</th>
+                    <th>Estado</th>
+                    <th>Accion</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-pedidos"></tbody>
+        </table>
+    </div>
+
+</body>
+</html>

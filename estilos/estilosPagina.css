@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image:url("imagenes/BackgroundUser.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    align-items: center; 
+}
+
+.user-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;           
+    overflow: hidden;      
+    height: auto;           
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    filter: drop-shadow(0 8px 32px rgba(0,0,0,0.2));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.user-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    flex: 1;
+    width: auto;           
+    gap: 10px;
+    height: auto;           
+    border-style: solid;
+    border-color: white;
+    background-color:white;
+    filter: drop-shadow(0 8px 32px rgba(0,0,0,0.2));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    color: black;
+    backdrop-filter: blur(8px);
+
+}
+
+.user-container .logout {
+    flex: none;            
+    margin-left: auto;     
+    width: fit-content;    
+    padding: 10px 20px;
+    border-radius: 15px
+}
+
+.user-container button:hover {
+    background-color: rgba(255, 255, 255, 0.788);
+    transform: scale(1.1);
+}
+
+.user-container1 {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;           
+    overflow: hidden;      
+    padding: 0px 0px;            
+    height: auto;           
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+
+}
+
+.user-container1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    flex: 12;
+    min-width: 0;
+    padding: 15px 0px;     
+    height: auto;          
+    border: 1px,solid, black;
+    background-color: white;
+    backdrop-filter: blur(8px);
+    filter: drop-shadow(0 8px 32px rgba(0,0,0,0.2));
+    color: black;
+    text-decoration: none;
+}
+
+.user-container1 a:hover {
+    background-color: rgba(255, 255, 255, 0.788);
+}

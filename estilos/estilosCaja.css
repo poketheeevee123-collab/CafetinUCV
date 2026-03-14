@@ -1,0 +1,36 @@
+h2 {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Pacifico", cursive;
+    color: aliceblue;
+}
+
+p{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-family:  "Pacifico", cursive;
+}
+
+.Pagos {
+    padding: 12px 20px;
+    background-color: #D4A373;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    filter : drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+    text-decoration: none;
+    
+}
+
+.Pagos:hover {
+    transform: scale(1.1);
+    background-color: #d4a373d3;
+}

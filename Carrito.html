@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carrito</title>
+    <link rel="stylesheet" href="estilos/estilosPagina.css">
+    <link rel="stylesheet" href="estilos/estilosCarrito.css">
+</head>
+
+<body>
+
+    <div class="user-container">
+        <button id="logout" class="logout">
+            <img src="estilos/Imagenes/IconoLogout.png" alt="Salir">Cerrar Sesión
+        </button>
+    </div>
+
+    <div class="user-container1" id="menu-navegacion"></div>  
+
+    <h1>Catálogo de Productos</h1>
+    
+    <div class="ContenedorCarrito" id="catalogo-productos"></div>
+
+    <aside class="ContenedorCompra">
+        <h3>🛒 Tu Pedido</h3>
+        <hr>
+        <div id="lista-articulos"></div>
+    
+        <div class="TotalPedido">
+            <span>Total:</span>
+            <span id="precio-total">0.00$</span>
+        </div>
+    
+        <button id="RealizarPedido" class="pedido"> Realizar Pedido </button>
+    </aside>
+
+    <script src="productos.js"></script>
+    <script src="carrito.js"></script>
+    <script src="global.js"></script>
+
+</body>
+</html>
+

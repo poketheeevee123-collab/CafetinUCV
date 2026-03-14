@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("imagenes/BackgroundLogin.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    align-items: center; 
+}
+
+h1 {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Pacifico", cursive;
+    
+}
+
+h1 img {
+    display: flex;
+    width: 130px; 
+    height: auto;
+    border-radius: 50%; 
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+h2 {
+    
+    text-align: center;
+    margin-top: 20px;
+    font-family:  "Pacifico", cursive;
+}
+.ContenedorInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;           
+    padding: 30px 0px;    
+    height: auto;           
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 8px 32px rgba(0,0,0,0.2));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+
+}
+label {
+    display: flex;
+    font-family: "Pacifico", cursive;
+    font-size: 18px;
+    text-align: left;
+    color: #5d4037;
+}
+input {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.Recuerdame {
+    display: flex;          
+    align-items: center;    
+    gap: 8px;               
+    justify-content: center; 
+    margin-top: 5px; 
+    filter : drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));       
+}
+
+.Recuerdame input[type="checkbox"] {
+    width: auto;            
+    cursor: pointer;
+    margin: 0;              
+}
+
+.Recuerdame label {
+    font-family: "Pacifico", cursive; 
+    color: #5d4037;
+    cursor: pointer;        
+    filter : drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2)); 
+}
+
+.login {
+    padding: 12px 20px;
+    background-color: #e4a03b;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    filter : drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+.login:hover {
+    background-color:#e4a03ba8 ;
+    transform: scale(1.1);
+}
