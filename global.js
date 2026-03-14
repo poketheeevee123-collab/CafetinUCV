@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (logoutBtn) {
         logoutBtn.addEventListener('click', () => {
             localStorage.removeItem("rolUsuario"); // Limpiar el rol al salir
-            window.location.href = "Login.html"; 
+            window.location.href = "index.html"; 
         });
     }
 
